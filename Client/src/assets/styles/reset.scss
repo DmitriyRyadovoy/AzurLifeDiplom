@@ -1,0 +1,123 @@
+@use "./variables.scss" as *;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+// Base css
+
+body{
+  color: $font-color;
+  font-family: 'Manrope', sans-serif;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Page_content{
+  flex-grow: 1;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+  font-size: 36px;
+  color: #333333;
+  font-family: 'Playfair Display', serif;
+  width: 330px;
+}
+
+.title-page{
+  font-size: 36px;
+  color: #333333;
+  font-family: 'Playfair Display', serif;
+}
+
+.mb{
+  margin-bottom: 70px;
+}
+
+.mb-product{
+  margin-bottom: 45px;
+}
+
+.mg-page{
+  margin-top: 25px;
+}
+
+.row{
+  display: flex;
+}
+
+.flex{
+  flex: 1;
+}
+
+.img{
+  vertical-align: top;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+input{
+  border: 1px solid #E9711B;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 16px;
+}
+
+.btn{
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.btn-active{
+  border: none;
+  background: #E9711B;
+  color: #fff;
+}
+
+.btn-Noactive{
+  border: 1px solid #E9711B;
+  background: #fff;
+  color: #333;
+
+  &:hover{
+    background: #E9711B;
+    color: #fff;
+    transition: all .3s ease 0s;
+  }
+}
+
+.cont {
+  background: #FFFFFF;
+  box-shadow: 0 4px 12px 1px #24262914;
+  border-radius: 15px;
+  padding: 15px;
+}
